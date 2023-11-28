@@ -1,0 +1,89 @@
+<span style="font-family: verdana, geneva, sans-serif;">/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#00263e 50%,#fae3c0 50%);
+}
+nav {
+    background-color:  rgb(28, 52, 100);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }  
+  
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    border-bottom: 2px solid white;
+  }
+
+.wrapper{
+    background: #fff;
+    width: 680px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+h2{
+    text-align: center;
+}
+hr{
+    width: 100px;
+    margin: 10px auto;
+}
+.members{
+    display: flex;
+}
+.team-mem{
+    margin: 8px;
+}
+img{
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+h4,p{
+    text-align: center;
+    font-size: 12px;
+    margin: 7px;
+}
+footer {
+    background-color: rgb(28, 52, 100);
+    color: white;
+    padding: 30px; 
+    text-align: center;
+    font-size: 30px;
+  }
+</span>
