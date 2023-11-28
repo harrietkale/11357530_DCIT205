@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+    nav{
+    background-color: rgb(28, 52, 100);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo img{
+        max-height: 50px;
+    }
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+    }
+    
+    li{
+    margin-right: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    font-size: 16px;
+    }
+    a:hover {
+        border-bottom: 2px solid white;
+    }
+.info {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the sections */
+div[class^="purpose"],
+div[class^="activity"],
+div[class^="skills"],
+div[class^="network"],
+div[class^="community"],
+div[class^="member"] {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style links */
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    background-color:rgb(28, 52, 100);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    position: fixed;
+    }
+}
